@@ -1,0 +1,116 @@
+Classfile /C:/Users/ntv.ORADEV/Documents/GitHub/practice/geeks/JDK-8066806/out/production/JDK-8066806/JDK8066806.class
+  Last modified Jun 22, 2016; size 1179 bytes
+  MD5 checksum ccca064f3c857c0d967029302836f94e
+  Compiled from "JDK8066806.java"
+public class JDK8066806
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #4.#26         // java/lang/Object."<init>":()V
+   #2 = InvokeDynamic      #0:#32         // #0:test:()Ljava/util/function/Predicate;
+   #3 = Class              #33            // JDK8066806
+   #4 = Class              #34            // java/lang/Object
+   #5 = Utf8               <init>
+   #6 = Utf8               ()V
+   #7 = Utf8               Code
+   #8 = Utf8               LineNumberTable
+   #9 = Utf8               LocalVariableTable
+  #10 = Utf8               this
+  #11 = Utf8               LJDK8066806;
+  #12 = Utf8               main
+  #13 = Utf8               ([Ljava/lang/String;)V
+  #14 = Utf8               args
+  #15 = Utf8               [Ljava/lang/String;
+  #16 = Utf8               p
+  #17 = Utf8               Ljava/util/function/Predicate;
+  #18 = Utf8               LocalVariableTypeTable
+  #19 = Utf8               Ljava/util/function/Predicate<Ljava/lang/Integer;>;
+  #20 = Utf8               lambda$main$0
+  #21 = Utf8               (Ljava/lang/Integer;)Z
+  #22 = Utf8               x
+  #23 = Utf8               Ljava/lang/Integer;
+  #24 = Utf8               SourceFile
+  #25 = Utf8               JDK8066806.java
+  #26 = NameAndType        #5:#6          // "<init>":()V
+  #27 = Utf8               BootstrapMethods
+  #28 = MethodHandle       #6:#35         // invokestatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #29 = MethodType         #36            //  (Ljava/lang/Object;)Z
+  #30 = MethodHandle       #6:#37         // invokestatic JDK8066806.lambda$main$0:(Ljava/lang/Integer;)Z
+  #31 = MethodType         #21            //  (Ljava/lang/Integer;)Z
+  #32 = NameAndType        #38:#39        // test:()Ljava/util/function/Predicate;
+  #33 = Utf8               JDK8066806
+  #34 = Utf8               java/lang/Object
+  #35 = Methodref          #40.#41        // java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #36 = Utf8               (Ljava/lang/Object;)Z
+  #37 = Methodref          #3.#42         // JDK8066806.lambda$main$0:(Ljava/lang/Integer;)Z
+  #38 = Utf8               test
+  #39 = Utf8               ()Ljava/util/function/Predicate;
+  #40 = Class              #43            // java/lang/invoke/LambdaMetafactory
+  #41 = NameAndType        #44:#48        // metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #42 = NameAndType        #20:#21        // lambda$main$0:(Ljava/lang/Integer;)Z
+  #43 = Utf8               java/lang/invoke/LambdaMetafactory
+  #44 = Utf8               metafactory
+  #45 = Class              #50            // java/lang/invoke/MethodHandles$Lookup
+  #46 = Utf8               Lookup
+  #47 = Utf8               InnerClasses
+  #48 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #49 = Class              #51            // java/lang/invoke/MethodHandles
+  #50 = Utf8               java/lang/invoke/MethodHandles$Lookup
+  #51 = Utf8               java/lang/invoke/MethodHandles
+{
+  public JDK8066806();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 8: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   LJDK8066806;
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=2, args_size=1
+         0: invokedynamic #2,  0              // InvokeDynamic #0:test:()Ljava/util/function/Predicate;
+         5: astore_1
+         6: return
+      LineNumberTable:
+        line 12: 0
+        line 14: 6
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       7     0  args   [Ljava/lang/String;
+            6       1     1     p   Ljava/util/function/Predicate;
+      LocalVariableTypeTable:
+        Start  Length  Slot  Name   Signature
+            6       1     1     p   Ljava/util/function/Predicate<Ljava/lang/Integer;>;
+
+  private static boolean lambda$main$0(java.lang.Integer);
+    descriptor: (Ljava/lang/Integer;)Z
+    flags: ACC_PRIVATE, ACC_STATIC, ACC_SYNTHETIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_1
+         1: ireturn
+      LineNumberTable:
+        line 12: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0     x   Ljava/lang/Integer;
+}
+SourceFile: "JDK8066806.java"
+InnerClasses:
+     public static final #46= #45 of #49; //Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+BootstrapMethods:
+  0: #28 invokestatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #29 (Ljava/lang/Object;)Z
+      #30 invokestatic JDK8066806.lambda$main$0:(Ljava/lang/Integer;)Z
+      #31 (Ljava/lang/Integer;)Z
